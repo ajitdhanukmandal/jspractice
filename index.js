@@ -167,19 +167,33 @@
 // console.log(hello(5));
 
 //arrays
-const bikes = ['pulsar', 'yamaha', 'hero', 'honda', 'ktmduke'];
+// const bikes = ['pulsar', 'yamaha', 'hero', 'honda', 'ktmduke'];
 
 // console.log(bikes.length);
 // console.log(bikes[0])
 // console.log(bikes[bikes.length-1]);
 // console.log(bikes.toString());
 
-for (let x of bikes){
-    console.log(x);
+// for (let x of bikes){
+//     console.log(x);
+// }
+
+// console.log(bikes.toString());
+// console.log(bikes.join("#"));
+
+//forEach
+const myFriend = ["Rupesh", "Manish", "Shyam", "RamBabu", "Deepak"];
+
+let txt = "";
+myFriend.forEach(myFunction);
+
+function myFunction(element, index, array){
+    txt += element + " ";
 }
 
-console.log(bikes.toString());
-console.log(bikes.join("#"));
+console.log(txt);
+
+
 
 
 
