@@ -201,7 +201,7 @@
 // console.log(x instanceof Array);
 
 
-const myNumber = [20, 30, 40, 50, 60, 70];
+// const myNumber = [20, 30, 40, 50, 60, 70];
 
 // console.log(myNumber.length);
 // console.log(toString(myNumber)); //number element vayeko array gives undefined if used toString
@@ -234,6 +234,70 @@ const myNumber = [20, 30, 40, 50, 60, 70];
 // const myArr = [[1,2], [3,4], [5,6]];
 // const newArr = myArr.flat();
 // console.log(newArr);
+
+const myNumber = [20, 30, 40, 50, 60, 10];
+
+// myNumber.splice(2,1, 100, 120);
+// myNumber.splice(3,0,150);
+// myNumber.splice(myNumber.length,0,200,300);
+// console.log(myNumber);
+
+// console.log(myNumber.slice(2));
+// console.log(myNumber.slice(1,4));
+
+// myNumber.sort(function(a, b){return a - b});
+// myNumber.sort(function(a,b) {return b - a});
+// console.log(myNumber);
+
+// console.log(Math.max.apply(null, myNumber));
+// console.log(Math.min.apply(null, myNumber));
+
+// numbers1 = [45, 10, 2, 9, 15];
+// numbers2 = numbers1.map(myFunction);
+
+// function myFunction(element, index, array){
+//     return element*2;
+// }
+// console.log(numbers2);
+
+// numbers1 = [45, 10, 2, 9, 15];
+// numbers2 = numbers1.flatMap((x) => x*3);
+// console.log(numbers2);
+
+// numbers1 = [45, 10, 2, 9, 15];
+// numbers2 = numbers1.filter(myFunction);
+
+// function myFunction(element, index, array){
+//     return element > 12;
+// }
+// console.log(numbers2);
+
+// numbers1 = [45, 10, 2, 9, 15];
+// numbers2 = numbers1.reduce(myFunction);
+
+// function myFunction(total, value, index, array){
+//     return total += value;
+// }
+// console.log(numbers2);
+
+//every
+// numbers1 = [45, 10, 2, 9, 15];
+// numbers2 = numbers1.every(myFunction);
+
+// function myFunction(element, index, array){
+//     return element > 12;
+// }
+// console.log(numbers2);
+
+//some
+// numbers1 = [45, 10, 2, 9, 15];
+// numbers2 = numbers1.some(myFunction);
+
+// function myFunction(element, index, array){
+//     return element > 12;
+// }
+// console.log(numbers2);
+
 
 
 
