@@ -174,9 +174,13 @@ const bikes = ['pulsar', 'yamaha', 'hero', 'honda', 'ktmduke'];
 // console.log(bikes[bikes.length-1]);
 // console.log(bikes.toString());
 
-// for (let x of bikes){
-//     console.log(x);
-// }
+for (let x of bikes){
+    console.log(x);
+}
+
+console.log(bikes.toString());
+console.log(bikes.join("#"));
+
 
 
 
