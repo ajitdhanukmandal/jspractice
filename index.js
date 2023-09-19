@@ -182,8 +182,8 @@
 // console.log(bikes.join("#"));
 
 //forEach
-const myFriend = ["Rupesh", "Manish", "Shyam", "RamBabu", "Deepak"];
-const x = 20;
+// const myFriend = ["Rupesh", "Manish", "Shyam", "RamBabu", "Deepak"];
+// const x = 20;
 
 // let txt = "";
 // myFriend.forEach(myFunction);
@@ -199,6 +199,41 @@ const x = 20;
 // console.log(myFriend instanceof Array);
 // console.log(Array.isArray(x));
 // console.log(x instanceof Array);
+
+
+const myNumber = [20, 30, 40, 50, 60, 70];
+
+// console.log(myNumber.length);
+// console.log(toString(myNumber)); //number element vayeko array gives undefined if used toString
+// console.log(myNumber.join("&"));
+// delete myNumber[3];
+// console.log(myNumber);
+
+// myNumber.pop();
+// console.log(myNumber);
+// console.log(myNumber.pop());
+
+// myNumber.push(80);
+// console.log(myNumber);
+// console.log(myNumber.push());
+
+// myNumber.shift();
+// console.log(myNumber);
+// console.log(myNumber.shift());
+
+// myNumber.unshift(80);
+// console.log(myNumber);
+// console.log(myNumber.unshift());
+
+// const number1 = [2,3,4];
+// const number2 = [5,6,7];
+
+// const number3 = number1.concat(number2);
+// console.log(number3);
+
+// const myArr = [[1,2], [3,4], [5,6]];
+// const newArr = myArr.flat();
+// console.log(newArr);
 
 
 
