@@ -183,15 +183,23 @@
 
 //forEach
 const myFriend = ["Rupesh", "Manish", "Shyam", "RamBabu", "Deepak"];
+const x = 20;
 
-let txt = "";
-myFriend.forEach(myFunction);
+// let txt = "";
+// myFriend.forEach(myFunction);
 
-function myFunction(element, index, array){
-    txt += element + " ";
-}
+// function myFunction(element, index, array){
+//     txt += element + " ";
+// }
 
-console.log(txt);
+// console.log(txt);
+
+//checking for array or not
+// console.log(Array.isArray(myFriend));
+// console.log(myFriend instanceof Array);
+// console.log(Array.isArray(x));
+// console.log(x instanceof Array);
+
 
 
 
